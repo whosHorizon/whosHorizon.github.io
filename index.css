@@ -1,0 +1,75 @@
+body{
+    padding:0;
+    margin:0;
+    background:#111;
+}
+.container{
+    width:800px;
+    height:160px;
+	border: 5px solid white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+	font-family: 'Roboto';
+	font-variant: small-caps;
+}
+
+.container h1{
+	color: white;
+}
+
+.header{
+	width:800px;
+	height:80px;
+	position:fixed;
+}
+
+.header h1{
+	line-height:30px;
+}
+
+.player1, .player2, .player3, .player4, .player5{
+	position:fixed;
+	margin-top:80px;
+	font-family: 'Bree Serif', serif;
+}
+
+.player2{
+	margin-left:160px;
+}
+
+.player3{
+	margin-left:320px;
+}
+
+.player4{
+	margin-left:480px;
+}
+
+.player5{
+	margin-left:640px;
+}
+
+.player1 a, .player2 a, .player3 a, .player4 a, .player5 a{
+	width:160px;
+    height:80px;
+	position:absolute;
+    vertical-align:middle;
+    line-height:75px;
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+    font-size: 28px;
+	transition: all 0.3s ease-out
+}
+
+.player1 a:hover, .player2 a:hover, .player3 a:hover, .player4 a:hover, .player5 a:hover{
+	color: #111;
+	background: white;
+}
+
+
+
+

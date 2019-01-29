@@ -1,0 +1,144 @@
+body{
+    padding:0;
+    margin:0;
+    background:url(https://i.ytimg.com/vi/ubAi3Rpyi5k/maxresdefault.jpg);
+	background-size: cover;
+}
+.content{
+	background: white;
+	position:absolute;
+	width: 1220px;
+	height: 400px;
+	left:50%;
+	top:40%;
+	transform: translate(-50%, -50%);
+	border: 5px solid #000;
+}
+
+.content img{
+	height: 370px;
+	margin-top: 10px
+}
+
+.table{
+	position:fixed;
+	right:15px;
+	top:15px;
+	font-family: 'Roboto';
+	color: black;
+	font-variant: small-caps;
+	font-size:12pt;
+}
+
+#orangebg{
+	background: -webkit-linear-gradient(left, #efd1a7 0%,#ffffff 100%);
+	background: -moz-linear-gradient(left, #efd1a7 0%,#ffffff 100%);
+	background: -o-linear-gradient(left, #efd1a7 0%,#ffffff 100%);
+	background: linear-gradient(left, #efd1a7 0%,#ffffff 100%);
+}
+
+#redbg{
+	background: -webkit-linear-gradient(left, #ffd1d1 0%,#ffffff 100%);
+	background: -moz-linear-gradient(left, #ffd1d1 0%,#ffffff 100%);
+	background: -o-linear-gradient(left, #ffd1d1 0%,#ffffff 100%);
+	background: linear-gradient(left, #ffd1d1 0%,#ffffff 100%);
+}
+
+.table tr, .ovr, .rating{
+	border-right: 1px solid #ddd;
+	margin:0;
+}
+
+.attribute{
+	width:115px;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:10px;
+	background: -webkit-linear-gradient(left, #cdf2c6 0%, #ffffff 100%);
+	background: -moz-linear-gradient(left, #cdf2c6 0%, #ffffff 100%);
+	background: -o-linear-gradient(left, #cdf2c6 0%, #ffffff 100%);
+	background: linear-gradient(left, #cdf2c6 0%, #ffffff 100%);
+}
+
+.ovr{
+	font-size:18pt;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:10px;
+	height:10px;
+}
+
+
+.rating{
+	font-weight:800;
+	width:0px;
+	text-align: center;
+	font-size: 10pt;
+	color:green;
+	padding-right:15px;
+}
+
+#ofb{
+	border-left: 1px solid #ddd;
+}
+
+.progress-border{
+	width:100px;
+	height:10px;
+	margin-left: 27px;
+	border: 1px solid #333;
+}
+
+/* Progress bar colors and fill. Change width percentage to OVR rating */
+
+.aerials, .shooting, .passing, .dribbling, .defending, .physical{
+	height:10px;
+}
+
+.aerials{
+	width:86%;
+	background: green;
+}
+
+.shooting{
+	width:78%;
+	background: green;
+}
+
+.passing{
+	width:83%;
+	background: green;
+}
+
+.dribbling{
+	width:73%;
+	background: orange;
+}
+
+.defending{
+	width:83%;
+	background: green;
+}
+
+.physical{
+	width:79%;
+	background: green;
+}
+
+#red{
+	color:red;
+}
+
+#orange{
+	color:orange;
+}
+
+#green{
+	color:green;
+}
+
+#empty{
+	background:transparent;
+	background:none;
+}
+
