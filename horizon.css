@@ -96,33 +96,33 @@ body{
 }
 
 .aerials{
-	width:86%;
-	background: green;
+	width:78%;
+	background: orange;
 }
 
 .shooting{
-	width:78%;
-	background: green;
+	width:74%;
+	background: orange;
 }
 
 .passing{
-	width:83%;
-	background: green;
+	width:76%;
+	background: orange;
 }
 
 .dribbling{
-	width:73%;
+	width:76%;
 	background: orange;
 }
 
 .defending{
-	width:83%;
-	background: green;
+	width:74%;
+	background: orange;
 }
 
 .physical{
-	width:79%;
-	background: green;
+	width:78%;
+	background: orange;
 }
 
 #red{
@@ -141,4 +141,3 @@ body{
 	background:transparent;
 	background:none;
 }
-
